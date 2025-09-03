@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-// Import ตัว `client` เข้ามา
 import { client, db } from "./utils/db.js";
 import { ObjectId } from "mongodb";
 
